@@ -1,0 +1,57 @@
+---
+title: Economic impact patterns of COVID-19 on emerging markets, January-April/June 2020
+author:
+- affiliation: Dockson Chair in Economics and IR, USC and the NBER
+  name: Joshua Aizenman
+- affiliation: School of Economics and Finance, VUW, New Zealand
+  name: Yothin Jinjarak
+- affiliation: SIR, USC
+  name: Timo B. Dähler
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    citation_package: natbib
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: /Users/timodaehler/Desktop/COVID19DEBT/svm-latex-ms.tex
+  word_document: default
+biblio-style: apsr
+fontfamily: mathpazo
+fontsize: 11pt
+geometry: margin=1in
+keywords: COVID-19, pandemic, emerging markets, sovereign debt
+bibliography: /Users/timodaehler/Desktop/COVID19DEBT/Bibliography.bib
+thanks: "We gratefully acknowledge the financial support by the Dockson Chair and the Center of International Studies at USC. Github repository: [https://github.com/timodaehler/COVID19DEBT](https://github.com/timodaehler/COVID19DEBT)  " 
+abstract: "With the global outbreak of COVID-19, many countries initially tried to
+  contain a further spread of the virus and to change the dynamics of the pandemic
+  with lockdowns and social distancing measures. This had two immediate effects; On
+  the one hand, global demand collapsed and lead to a precipitous drop in the price
+  for oil and other resources. On the other hand, governments had to mitigate the
+  economic consequences on individuals which resulted directly from the virus or indirectly
+  from the government imposed lockdowns, thereby expanding government deficits and bulking up sovereign debt. In the light of financial fragility of emerging markets during previous global crises, this paper examines the economic impact of the COVID-19 pandemic on government finances. Specifically, this paper traces the cross-country associations between COVID-19 mortality, economic fundamentals, policy interventions, and their impact on sovereign spreads. Our results suggest... "
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
